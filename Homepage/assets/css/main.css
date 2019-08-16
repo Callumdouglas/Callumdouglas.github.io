@@ -1,0 +1,59 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background:  url(https://media1.tenor.com/images/a89b1613edca4f3892bf11f0f2445d2f/tenor.gif?itemid=5452278) no-repeat center center fixed; 
+  	background-repeat: repeat;
+  	background-size: 17vw;
+}
+
+.nav {
+
+	color: white;
+	width: 40%;
+	background-color: red;
+	padding: 1vw;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	font-size: 2.2vw;
+}
+
+.nav-item:hover {
+
+	color: #ffee00;
+
+}
+
+
+.nav-item {
+
+	font-weight: bold;
+	display: inline-block;
+	padding: 1vw;
+	width: 10.5vw;
+}
+
+.title-letter:hover {
+
+ 	color: #ffee00;
+
+}
+
+.title-letter {
+
+ 	display: inline-block;
+ 	width: 7vw;
+
+}
+
+.title {
+
+	display: inline-block;
+	padding: 20px;
+	font-size: 12vw;
+	width: 80%;
+	font-family: Arial black;
+	color: red;
+
+}
+
