@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+
+.lazer {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+    background-color: #00ff12;
+    height: 5px;
+    box-shadow: 0 0 5px 5px #00ff12;
+
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+}
+
+.grid {
+  display:flex;
+}
+
+.lefteye {
+  width:50%;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.lefteye img {
+  width:70%;
+}
+
+.righteye {
+    width:50%;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.righteye img {
+  width:70%;
+}

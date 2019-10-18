@@ -1,11 +1,17 @@
+body {
+
+  background-color: black;
+}
+
+
 .gradient {
   border-radius: 50%;
   color:#fff;
-  width: 80px;
-  height:80px;
+  width: 40vh;
+  height:40vh;
   background-image: linear-gradient(to left, #3c9535, #0c2bc7);
   animation-name:spinUG;
-  animation-duration:7s;
+  animation-duration:1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
 

@@ -1,0 +1,61 @@
+body {
+	font-family: courier;
+	font-size: 2vw;
+	color: red;
+	background-color: #faf9e3;
+}
+
+a {
+	
+	color: darkblue;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+}
+
+.intro {
+	padding: 3vw;
+	font-size: 10vw;
+	font-weight: bold;
+}
+
+.intro img {
+	width: 15vw;
+	padding-left: 7vw;
+}
+.table {
+	margin-top: 1vw;
+	padding: 20px;
+}
+
+
+.row {
+	padding: 5px;
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 0.1vw dashed red;
+}
+
+.title {
+	flex:0 0 33%;
+}
+
+.type {
+	flex:0 0 33%;
+}
+
+.date {
+	flex:0 0 33%;
+}
+
+.row2 {
+	padding: 5px;
+	display: flex;
+	flex-wrap:wrap;
+	font-weight: bolder;
+	padding-bottom: 20px;
+	
+}
