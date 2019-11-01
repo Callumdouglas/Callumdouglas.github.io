@@ -5,7 +5,10 @@
 	background-size: cover;
 
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> e29a8478a3a4a678acabb5faf0c4357cbb5df257
 .grid {
 
   display: flex;
@@ -36,7 +39,20 @@
 }
 
 .earthcolor3 {
+<<<<<<< HEAD
+
+	background-image: url("images/lostsignal.jpg");
+	background-size: 100%;
+	width: 200px;
+    height:200px;
+    animation-name:growUG;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+=======
   background-color: #455241;
+>>>>>>> e29a8478a3a4a678acabb5faf0c4357cbb5df257
 }
 
 @keyframes growUG {
@@ -52,7 +68,11 @@
   }
 }
 
+<<<<<<< HEAD
+.earthcolor1, .earthcolor2, .earthcolor4 {
+=======
 .earthcolor1, .earthcolor2, .earthcolor4, .earthcolor3 {
+>>>>>>> e29a8478a3a4a678acabb5faf0c4357cbb5df257
   width: 200px;
   height:200px;
   animation-name:growUG;
@@ -75,6 +95,8 @@
   }
   
   
+<<<<<<< HEAD
+=======
 
 .grid-red {
   width: 50%;
@@ -101,4 +123,5 @@
 }
 
 
+>>>>>>> e29a8478a3a4a678acabb5faf0c4357cbb5df257
 }
