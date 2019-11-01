@@ -1,17 +1,31 @@
 $(document).ready(function(){
-	console.log("hello world");
 
-	$('.research-item').click(function(){
-		$(this).toggleClass('large');
+	var hideAll = function() {
+		$('.research-item').addClass('hide');
+	}
+
+		$('.btn-gym').click(function(){
+			hideAll();
+		$('.gym').removeClass('hide');
 	});
 
 	var hideAll = function() {
 		$('.research-item').addClass('hide');
 	}
 
-		$('.btn-car').click(function(){
+		$('.btn-neo').click(function(){
 			hideAll();
-		$('.car').removeClass('hide');
+		$('.neo').removeClass('hide');
 	});
 
+		var hideAll = function() {
+		$('.research-item').addClass('hide');
+	}
+
+		$('.btn-e').click(function(){
+			hideAll();
+		$('.e').removeClass('hide');
+	});
+
+	
 });
