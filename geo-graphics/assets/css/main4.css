@@ -1,0 +1,41 @@
+body {
+
+  background-color: black;
+}
+
+
+.gradient {
+  border-radius: 50%;
+  color:#fff;
+  width: 40vh;
+  height:40vh;
+  background-image: linear-gradient(to left, #3c9535, #0c2bc7);
+  animation-name:spinUG;
+  animation-duration:1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+
+}
+
+.grids {
+  display:flex;
+
+}
+.grid {
+  width:50%;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+@keyframes spinUG {
+  
+  0% {
+    transform:rotate(0deg);
+  }
+  
+  100% {
+    transform:rotate(360deg);
+  }
+}

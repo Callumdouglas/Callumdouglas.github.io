@@ -1,0 +1,104 @@
+.earthbackground {
+
+	background-image: url("images/earthpixel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.grid {
+
+  display: flex;
+  flex-wrap:wrap;
+
+}
+
+.grid-earth {
+
+  width: 50%;
+  height: 50vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.earthcolor4 {
+	background-color: #204160;
+}
+
+.earthcolor2 {
+	background-color: #455241;
+}
+
+.earthcolor1 {
+	background-color: #9d8d73;
+}
+
+.earthcolor3 {
+  background-color: #455241;
+}
+
+@keyframes growUG {
+  
+  0% {
+    width:10vh;
+    height:10vh;
+  }
+  
+  100% {
+    width:50vh;
+    height:50vh;
+  }
+}
+
+.earthcolor1, .earthcolor2, .earthcolor4, .earthcolor3 {
+  width: 200px;
+  height:200px;
+  animation-name:growUG;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes growUG {
+  
+  0% {
+    width:10vh;
+    height:10vh;
+  }
+  
+  100% {
+    width:50vh;
+    height:50vh;
+  }
+  
+  
+
+.grid-red {
+  width: 50%;
+  height: 50vh;
+  background-color: red;
+}
+
+.grid-blue {
+  width: 50%;
+  height: 50vh;
+  background-color: blue;
+}
+
+.grid-green {
+  width: 50%;
+  height: 50vh;
+  background-color: lime;
+}
+
+.grid-black {
+  width: 50%;
+  height: 50vh;
+  background-color: black;
+}
+
+
+}

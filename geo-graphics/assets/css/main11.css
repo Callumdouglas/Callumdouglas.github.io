@@ -1,0 +1,31 @@
+.print {
+  width:100%;
+  height:100vh;
+  background-color: #fff;
+}
+
+.print img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: #fff;
+}
+
+.denied {
+  position: absolute;
+  top:0px;
+  left:0px;
+  display: flex;
+  width:100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.denied-text {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 18vw;
+  color:#00ffff;
+  text-align: center;
+  mix-blend-mode:difference;
+}
