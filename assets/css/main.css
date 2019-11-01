@@ -6,6 +6,10 @@ body {
   	background-size: 17vw;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
 .nav {
 
 	color: white;
@@ -18,7 +22,7 @@ body {
 	font-size: 2.2vw;
 }
 
-.nav-item:hover {
+a:hover {
 
 	color: #ffee00;
 

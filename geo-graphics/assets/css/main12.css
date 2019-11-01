@@ -1,0 +1,51 @@
+.grid {
+  display:flex;
+}
+
+.grid-red {
+  width:50%;
+  height:100vh;
+  background-color:red;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.grid-red img {
+  width:75%;
+}
+
+.grid-blue {
+    width:50%;
+  height:100vh;
+    background-color:#000e9d;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.grid-blue img {
+  width:75%;
+}
+
+.grid-blue img, .grid-red img {
+  width: 200px;
+  height:200px;
+  animation-name:growUG;
+  animation-duration:1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes growUG {
+  
+  0% {
+    width:25vh;
+    height:25vh;
+  }
+  
+  100% {
+    width:50vh;
+    height:50vh;
+  }
