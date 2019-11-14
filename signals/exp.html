@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Congratulations!</title>
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
+  	<script src="assets/js/jquery-3.4.1.min.js"></script>
+  	<script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+
+var random_images_array = ['exp1.jpg', 'exp2.jpg', 'exp3.jpg', 'exp4.jpg', 'exp5.jpg', 'exp6.jpg', 'exp7.jpg', 'exp8.jpg', 'exp9.jpg', 'exp10.jpg', 'exp11.jpg', 'exp12.jpg', 'exp13.jpg', 'exp14.jpg', 'exp15.jpg', 'exp16.jpg', 'exp17.jpg', 'exp18.jpg', 'exp19.jpg', 'exp20.jpg', 'exp21.jpg', 'exp22.jpg', 'exp23.jpg', 'exp24.jpg', 'exp25.jpg', 'exp26.jpg', 'exp27.jpg', 'exp28.jpg', 'exp29.jpg', 'exp30.jpg', 'exp31.jpg', 'exp32.jpg'];
+    
+function getRandomImage(imgAr, path) {
+    path = path || 'baseset/'; 
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr); document.close();
+}
+
+</script>
+
+  </head>
+  <body>
+   
+<div class="nav2">
+  
+<a href="index.html">Home</a>
+
+
+</div>
+
+<div class="card">
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'exp/');</script></div>
+</div>
+  </body>
+</html>

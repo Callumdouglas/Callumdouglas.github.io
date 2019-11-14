@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Congratulations!</title>
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
+  	<script src="assets/js/jquery-3.4.1.min.js"></script>
+  	<script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+
+var random_images_array = ['sand1.jpg', 'sand2.jpg','sand3.jpg','sand4.jpg','sand5.jpg','sand6.jpg','sand7.jpg','sand8.jpg','sand9.jpg','sand10.jpg', 'sand11.jpg','sand12.jpg','sand13.jpg', 'sand14.jpg',];
+    
+function getRandomImage(imgAr, path) {
+    path = path || 'baseset/'; 
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "">';
+    document.write(imgStr); document.close();
+}
+
+</script>
+
+  </head>
+  <body>
+   
+<div class="nav2">
+  
+<a href="index.html">Home</a>
+
+
+</div>
+
+<div class="card">
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+
+<div class="card-item"><script type="text/javascript">getRandomImage(random_images_array, 'sand/');</script></div>
+</div>
+  </body>
+</html>

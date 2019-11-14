@@ -11,13 +11,15 @@ a:hover {
 a {
 	color:black;
 	text-decoration: none;
+	
+
+
 }
 
 h1 {
 	font-weight: bolder;
 	font-size: 3vh
 }
-
 
 .back img {
 	width: 7vh;
@@ -39,6 +41,7 @@ h1 {
 	flex: 33.33%;
 	padding: 10px;
 
+
 }
 
 .butt {
@@ -49,16 +52,165 @@ h1 {
 	text-decoration: none;
 	font-family: courier;
 }
-.thumbnail-content {
+.thumbnail-content1 {
 	display:flex;
   	align-items:center;
   	justify-content:center;
 	height: 25vw;
-	background-color: #ffffff;
+	background-image: url("images/img1.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
 	border: dashed red 3px;
 	border-radius: 10px;
 }
 
+
+.thumbnail-content2 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img2.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+
+.thumbnail-content3 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img3.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+.thumbnail-content4 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img4.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+.thumbnail-content5 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img5.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+.thumbnail-content6 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img6.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+.thumbnail-content7 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-size: 100%;
+	background-image: url("images/img7.png");
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+.thumbnail-content8 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img8.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+.thumbnail-content9 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img9.png");
+background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+.thumbnail-content10 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img10.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+.thumbnail-content11 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img11.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
+.thumbnail-content12 {
+	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	height: 25vw;
+	background-image: url("images/img12.png");
+	background-size: 100%;
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: dashed red 3px;
+	border-radius: 10px;
+}
 .thumbnail img {
 	width:100%;
 }
@@ -71,6 +223,8 @@ h1 {
 
 .number {
 	font-size: 4vw;
+	padding: 5px;
+	background-color: white;
 }
 
 .main {
@@ -115,7 +269,7 @@ h1 {
 }
 
 .thumbnail a:visited {
-	color: yellow;
+	color: red;
 }
 
 .thecanvas {
